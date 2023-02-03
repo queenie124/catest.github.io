@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(245, 176, 97);
+  text-align: center;
+}
+
+.whiteFont{
+  color:white;
+  font-family: Zfont;
+}
+@font-face {
+  font-family: Zfont;
+  src: url(./assets/ZCOOL_KuaiLe/ZCOOL.ttf);
+}
+.center{
+  text-align: center;
+}

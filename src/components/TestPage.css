@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(245, 176, 97);
+
+}
+.whiteFont{
+  color:white;
+  font-family: Zfont;
+  font-size:larger;
+}
+@font-face {
+  font-family: Zfont;
+  src: url(./assets/ZCOOL_KuaiLe/ZCOOL.ttf);
+}
