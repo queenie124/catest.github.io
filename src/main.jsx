@@ -13,6 +13,7 @@ import TestPage9 from './components/TestPage9'
 import Result from './components/Result'
 import Letter from './components/Letter'
 import GiveResult from './components/GiveResult'
+import TestMyWeb from './components/TestMyWeb'
 import './index.css'
 import {
   createBrowserRouter,
@@ -83,6 +84,12 @@ const router = createBrowserRouter([
     path:"/giveresult",
     element:
     <GiveResult></GiveResult>
+  }
+  ,
+  {
+    path:"/testing",
+    element:
+    <TestMyWeb/>
   }
 
   
